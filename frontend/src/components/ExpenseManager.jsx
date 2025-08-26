@@ -3,8 +3,8 @@ import { ArrowLeft, Plus, Calculator, Download, UserPlus, DollarSign } from 'luc
 import CategoryManager from './CategoryManager';
 import AttendeeManager from './AttendeeManager';
 import ExpenseCalculator from './ExpenseCalculator';
+import { API_BASE_URL } from '../config/api';
 
-const API_BASE_URL = 'http://localhost:5000/api';
 
 const ExpenseManager = ({ eventId, onBack }) => {
   const [eventData, setEventData] = useState(null);

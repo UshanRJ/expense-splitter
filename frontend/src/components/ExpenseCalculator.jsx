@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Calculator, Download, TrendingUp, TrendingDown, Minus } from 'lucide-react';
+import { API_BASE_URL } from '../config/api';
 
-const API_BASE_URL = 'http://localhost:5000/api';
 
 const ExpenseCalculator = ({ eventId, eventData }) => {
   const [calculations, setCalculations] = useState(null);
