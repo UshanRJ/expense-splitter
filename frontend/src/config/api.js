@@ -8,7 +8,7 @@ const config = {
   }
 };
 
-const environment = import.meta.env.MODE || 'development';
+const environment = import.meta.env.MODE || 'production';
 export const API_BASE_URL = config[environment].API_BASE_URL;
 
 // Debug logging (optional - remove in production)

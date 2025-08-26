@@ -16,8 +16,8 @@ A modern web application for splitting party expenses fairly among friends. Buil
 
 ## 🚀 Live Demo
 
-- **Frontend**: [https://expense-splitter-wheat.vercel.app/](https://your-app.vercel.app)
-- **Backend API**: [https://expense-splitter.up.railway.app/](https://your-backend.up.railway.app)
+- **Frontend**: [https://your-app.vercel.app](https://your-app.vercel.app)
+- **Backend API**: [https://your-backend.up.railway.app](https://your-backend.up.railway.app)
 
 ## 🛠️ Tech Stack
 
@@ -101,7 +101,7 @@ expense-splitter/
 
 ### Frontend (.env)
 ```bash
-VITE_API_URL=https://expense-splitter-wheat.vercel.app/api/
+VITE_API_URL=https://expense-splitter-wheat.vercel.app/
 ```
 
 ### Backend (.env)
